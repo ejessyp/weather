@@ -1,9 +1,8 @@
 {
-    "name": "anax/weather",
+    "name": "weather/weather",
     "type": "library",
     "description": "Anax weather module.",
     "keywords": ["boilerplate", "framework", "mvc", "weather", "education"],
-    "homepage": "https://dbwebb.se/anax",
     "license": "MIT",
     "authors": [
         {

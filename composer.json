@@ -1,5 +1,5 @@
 {
-    "name": "anax/weather",
+    "name": "weather",
     "type": "library",
     "description": "Anax weather module.",
     "keywords": ["boilerplate", "framework", "mvc", "weather", "education"],

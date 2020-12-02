@@ -21,8 +21,8 @@ You can review the module configuration file in the directory `vendor/bthpan/wea
 
 | File | Description |
 |------|-------------|
-| `src/Controller/weatherController.php` | Add "weather" as a di service to make it easy to use from the controller, this is implemented by the model class `weather`. |
-| `src/Controller/weatherApiController.php` | Add "weather" as a di service to make it easy to use from the controller, this is implemented by the model class `weather`. |
+| `src/Controller/weatherController.php` | This is a controller class,"weather" service to show 5 days history and 7 days forecast. |
+| `src/Controller/weatherApiController.php` |This is a controller class,"weatherApi" return the same data like the above but with json format. |
 | `router/510_weather-controller.php` | The routes supported for the weather service. The route is implemented by the `weatherController` class. |
 | `router/511_weather-api-controller.php` |The routes supported for the weather API. The route is implemented by the `weatherApiController` class. |
 | `weather/README.md` | Short explanation on how to add new datasets. |
@@ -34,7 +34,6 @@ You may copy all the module files with the following command.
 rsync -av  vendor/bthpan/weather/config/ me/redovisa/
 rsync -av  vendor/bthpan/weather/src/ me/redovisa/
 rsync -av  vendor/bthpan/weather/view/ me/redovisa/
-rsync -av  vendor/bthpan/weather/test/ me/redovisa/
 ```
 
 The weather service is now active on the route `weather/`.

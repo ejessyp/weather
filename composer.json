@@ -1,5 +1,5 @@
 {
-    "name": "pan/weather",
+    "name": "bthpan/weather",
     "type": "library",
     "description": "Anax weather module.",
     "keywords": ["boilerplate", "framework", "mvc", "weather", "education"],

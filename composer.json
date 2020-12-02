@@ -1,8 +1,8 @@
 {
     "name": "bthpan/weather",
     "type": "library",
-    "description": "Anax weather module.",
-    "keywords": ["boilerplate", "framework", "mvc", "weather", "education"],
+    "description": "A weather module.",
+    "keywords": ["framework", "mvc", "weather", "learning"],
     "license": "MIT",
     "authors": [
         {

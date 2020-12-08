@@ -15,7 +15,6 @@ class ComposerStaticInit47b18687ab09859645fbad6833e09782
         'dfc9e5dd545737efbb98020db79bfa08' => __DIR__ . '/..' . '/mos/cimage/defines.php',
         '507fe79d3e285fab95fad400b8d42245' => __DIR__ . '/..' . '/mos/cimage/functions.php',
         '6124b4c8570aa390c21fafd04a26c69f' => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
-        '5f0e95b8df5acf4a92c896dc3ac4bb6e' => __DIR__ . '/..' . '/phpmetrics/phpmetrics/src/functions.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -38,7 +37,6 @@ class ComposerStaticInit47b18687ab09859645fbad6833e09782
             'Psr\\Log\\' => 8,
             'Psr\\Container\\' => 14,
             'Prophecy\\' => 9,
-            'PhpParser\\' => 10,
         ),
         'M' => 
         array (
@@ -89,10 +87,6 @@ class ComposerStaticInit47b18687ab09859645fbad6833e09782
         'Prophecy\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpspec/prophecy/src/Prophecy',
-        ),
-        'PhpParser\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
         ),
         'Michelf\\' => 
         array (
@@ -150,10 +144,6 @@ class ComposerStaticInit47b18687ab09859645fbad6833e09782
             'HighlightUtilities\\' => 
             array (
                 0 => __DIR__ . '/..' . '/scrivo/highlight.php',
-            ),
-            'Hal\\' => 
-            array (
-                0 => __DIR__ . '/..' . '/phpmetrics/phpmetrics/src',
             ),
             'HTMLPurifier' => 
             array (

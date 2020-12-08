@@ -51,7 +51,7 @@ if (!isset($message)) {
 
 <h1>Weather:</h1>
 Get the weather forceast 7 days and history 5 days.
-<form action="weather" method="get">
+<form action="weather2" method="get">
     <fieldset>
     <legend>Please input a placename or IP address</legend>
     <p>
@@ -142,7 +142,7 @@ Such as:
 
 <h1>Test with WeatherApi:</h1>
 Please input an IP address or a place, not both:
-<form action="weatherApi" method="post">
+<form action="weather2Api" method="post">
     <fieldset>
     <legend>IP Address or Name:</legend>
     <p>

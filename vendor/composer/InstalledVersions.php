@@ -14,13 +14,13 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-main',
+    'version' => 'dev-main',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
-    'name' => 'anax/weather',
+    'reference' => '37b5d361c76f65c6d7ea0eb1c86d55bd4924cd69',
+    'name' => 'bthpan/weather',
   ),
   'versions' => 
   array (
@@ -213,14 +213,14 @@ private static $installed = array (
       ),
       'reference' => '91112696cdef1a3e3273e7185365edc03cc9edb4',
     ),
-    'anax/weather' => 
+    'bthpan/weather' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-main',
+      'version' => 'dev-main',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '37b5d361c76f65c6d7ea0eb1c86d55bd4924cd69',
     ),
     'doctrine/instantiator' => 
     array (
@@ -239,20 +239,6 @@ private static $installed = array (
       array (
       ),
       'reference' => '08e27c97e4c6ed02f37c5b2b20488046c8d90d75',
-    ),
-    'halleck45/php-metrics' => 
-    array (
-      'replaced' => 
-      array (
-        0 => '*',
-      ),
-    ),
-    'halleck45/phpmetrics' => 
-    array (
-      'replaced' => 
-      array (
-        0 => '*',
-      ),
     ),
     'michelf/php-markdown' => 
     array (
@@ -293,15 +279,6 @@ private static $installed = array (
       array (
         0 => '1.10.2',
       ),
-    ),
-    'nikic/php-parser' => 
-    array (
-      'pretty_version' => 'v4.10.2',
-      'version' => '4.10.2.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '658f1be311a230e0907f5dfe0213742aff0596de',
     ),
     'phar-io/manifest' => 
     array (
@@ -347,15 +324,6 @@ private static $installed = array (
       array (
       ),
       'reference' => '6a467b8989322d92aa1c8bf2bebcc6e5c2ba55c0',
-    ),
-    'phpmetrics/phpmetrics' => 
-    array (
-      'pretty_version' => 'v2.7.4',
-      'version' => '2.7.4.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => 'e6a7aee0e0948e363eb78ce9d58573cd5af2cdec',
     ),
     'phpspec/prophecy' => 
     array (

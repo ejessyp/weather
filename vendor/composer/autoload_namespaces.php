@@ -9,6 +9,5 @@ return array(
     'Michelf' => array($vendorDir . '/michelf/php-smartypants'),
     'Highlight\\' => array($vendorDir . '/scrivo/highlight.php'),
     'HighlightUtilities\\' => array($vendorDir . '/scrivo/highlight.php'),
-    'Hal\\' => array($vendorDir . '/phpmetrics/phpmetrics/src'),
     'HTMLPurifier' => array($vendorDir . '/ezyang/htmlpurifier/library'),
 );

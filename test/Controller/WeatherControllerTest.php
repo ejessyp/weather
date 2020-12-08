@@ -48,7 +48,7 @@ class WeatherControllerTest extends TestCase
         $request     = $this->di->get("request");
         $request->setGet("submit", "Submit");
         $request->setGet("ip", "194.47.150.9");
-
+        // var_dump($controller);
 
         // Test the controller action
         $res = $controller->indexActionGet();

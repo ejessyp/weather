@@ -33,7 +33,7 @@ class WeatherController implements ContainerInjectableInterface
      */
     public function indexActionGet() : object
     {
-        var_dump($this->di);
+        // var_dump($this->di->get("request"));
         $page = $this->di->get("page");
         $request     = $this->di->get("request");
         // var_dump($request->getGet('ip'));

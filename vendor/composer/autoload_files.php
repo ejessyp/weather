@@ -14,5 +14,4 @@ return array(
     'dfc9e5dd545737efbb98020db79bfa08' => $vendorDir . '/mos/cimage/defines.php',
     '507fe79d3e285fab95fad400b8d42245' => $vendorDir . '/mos/cimage/functions.php',
     '6124b4c8570aa390c21fafd04a26c69f' => $vendorDir . '/myclabs/deep-copy/src/DeepCopy/deep_copy.php',
-    '5f0e95b8df5acf4a92c896dc3ac4bb6e' => $vendorDir . '/phpmetrics/phpmetrics/src/functions.php',
 );

@@ -23,21 +23,29 @@ You can review the module configuration file in the directory `vendor/bthpan/wea
 |------|-------------|
 | `src/Controller/weatherController.php` | This is a controller class,"weather" service to show 5 days history and 7 days forecast. |
 | `src/Controller/weatherApiController.php` |This is a controller class,"weatherApi" return the same data like the above but with json format. |
-| `router/510_weather-controller.php` | The routes supported for the weather service. The route is implemented by the `weatherController` class. |
-| `router/511_weather-api-controller.php` |The routes supported for the weather API. The route is implemented by the `weatherApiController` class. |
+| `src/IpGeo/IpGeoweather.php` | This is a module class, return data from api.ipstack.com with json format. |
+| `src/OpenWeather/OpenWeather.php` | This is a module class, return data from api.openweathermap.org with json format. |
+| `src/OpenWeather/NameToGeo.php` | This is a module class, return data from nominatim.openstreetmap.org with json format. |
+| `router/450_weather-controller.php` | The routes supported for the weather service. The route is implemented by the `weatherController` class. |
+| `router/451_weather-api-controller.php` |The routes supported for the weather API. The route is implemented by the `weatherApiController` class. |
 | `weather/README.md` | Short explanation on how to add new datasets. |
 
 You may copy all the module files with the following command.
 
 ```
-# Move to the root of the course repo
-rsync -av  vendor/bthpan/weather/config/ me/redovisa/
-rsync -av  vendor/bthpan/weather/src/ me/redovisa/
-rsync -av  vendor/bthpan/weather/view/ me/redovisa/
+# Move to dir me/redovisa
+# Copy the files for creating the services into $di for ipgeoweather and openweather
+rsync -av  vendor/bthpan/weather/test/config/di/ipstack.php  ./config/di/
+rsync -av  vendor/bthpan/weather/test/config/di/openweather.php  ./config/di/
+# Copy the config files(apikey) for creating the services into $di for ipgeoweather and openweather
+rsync -av  vendor/bthpan/weather/test/config/ipstack.php ./config/
+rsync -av  vendor/bthpan/weather/test/config/weather.php  ./config/
+# Copy the view files
+rsync -av  vendor/bthpan/weather/view/ ./view
 ```
 
-The weather service is now active on the route `weather/`.
-The weather API is now active on the route `weatherApi`.
+The weather service is now active on the route `weather2/`.
+The weather API is now active on the route `weather2Api`.
 
 
 Dependency

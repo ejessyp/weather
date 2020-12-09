@@ -7,7 +7,7 @@ return [
         [
             "info" => "kmom04 Weather Controller.",
             "mount" => "weather2",
-            "handler" => "\bthpan\weather\WeatherController",
+            "handler" => "\Anax\Controller\WeatherController",
         ],
     ]
 ];

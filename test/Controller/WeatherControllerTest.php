@@ -11,7 +11,7 @@ use PHPUnit\Framework\TestCase;
 class WeatherControllerTest extends TestCase
 {
     // Create the di container.
-    // protected $di;
+    protected $di;
 
 
     /**
@@ -19,19 +19,16 @@ class WeatherControllerTest extends TestCase
      */
     protected function setUp()
     {
+        global $di;
 
         // Setup di
-        $this->di = new DIFactoryConfig();
-
-        $this->di->loadServices(ANAX_INSTALL_PATH . "/config/di");
-
-        $this->di->loadServices(ANAX_INSTALL_PATH . "/test/config/di");
+        $di = new DIFactoryConfig();
+        $di->loadServices(ANAX_INSTALL_PATH . "/test/config/di");
 
         // Use a different cache dir for unit test
         // $di->get("cache")->setPath(ANAX_INSTALL_PATH . "/test/cache");
 
-
-        // $this->di = $di;
+        $this->di = $di;
     }
 
 

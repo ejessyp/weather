@@ -89,7 +89,7 @@ class WeatherController implements ContainerInjectableInterface
                     "history" => $history,
                 ];
             }
-
+            // var_dump($data);
             $page->add("weather", $data);
             return $page->render([
                 "title" => "Weather",

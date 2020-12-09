@@ -17,7 +17,7 @@ composer require bthpan/weather
 
 ### Step 2, integrate into your Anax base
 
-You can review the module configuration file in the directory `vendor/bthpan/weather/config`. It consists of the following parts.
+You can review the module files in the directory `vendor/bthpan/weather/`. It consists of the following parts.
 
 | File | Description |
 |------|-------------|

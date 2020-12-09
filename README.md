@@ -34,7 +34,7 @@ You may copy all the module files with the following command.
 
 ```
 # Move to dir me/redovisa
-rsync -av  vendor/bthpan/weather/test/config/router/  ./config/router/
+rsync -av  vendor/bthpan/weather/config/router/  ./config/router/
 # Copy the files for creating the services into $di for ipgeoweather and openweather
 rsync -av  vendor/bthpan/weather/test/config/di/ipstack.php  ./config/di/
 rsync -av  vendor/bthpan/weather/test/config/di/openweather.php  ./config/di/

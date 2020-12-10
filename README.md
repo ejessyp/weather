@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.com/ejessyp/weather.svg?branch=main)](https://travis-ci.com/ejessyp/weather)
 Weather module implements a weather service.
 
 Install as an Anax module

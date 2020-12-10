@@ -5,6 +5,11 @@ php:
     - hhvm
     - nightly
 
+# on your .travis.yml
+env:
+    global:
+        - XDEBUG_MODE=coverage
+
 git:
     submodules: false
 

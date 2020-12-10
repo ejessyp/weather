@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.com/ejessyp/weather.svg?branch=main)](https://travis-ci.com/ejessyp/weather)
 
+[![CircleCI](https://circleci.com/gh/canax/remserver.svg?style=shield)](https://circleci.com/gh/ejessyp/weather)
+
 Weather module implements a weather service.
 
 Install as an Anax module

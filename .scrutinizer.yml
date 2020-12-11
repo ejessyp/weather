@@ -14,6 +14,9 @@ build:
 
         tests-and-coverage:
             tests:
+                environment:
+                    php:
+                        version: '7.4'
                 override:
                     -
                         command: "make phpunit"

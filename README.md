@@ -5,7 +5,6 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ejessyp/weather/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/ejessyp/weather/?branch=main)
 [![Code Coverage](https://scrutinizer-ci.com/g/ejessyp/weather/badges/coverage.png?b=main)](https://scrutinizer-ci.com/g/ejessyp/weather/?branch=main)
 [![Build Status](https://scrutinizer-ci.com/g/ejessyp/weather/badges/build.png?b=main)](https://scrutinizer-ci.com/g/ejessyp/weather/build-status/main)
-[![Code Intelligence Status](https://scrutinizer-ci.com/g/ejessyp/weather/badges/code-intelligence.svg?b=main)](https://scrutinizer-ci.com/code-intelligence)
 
 Weather module implements a weather service.
 

@@ -1,4 +1,5 @@
 function showMap(lat, lng) {
+    var L;
     var element = document.getElementById('osm-map');
 
     element.style = 'height:300px;';

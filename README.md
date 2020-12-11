@@ -5,15 +5,14 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/ejessyp/weather/badges/quality-score.png?b=main)](https://scrutinizer-ci.com/g/ejessyp/weather/?branch=main)
 [![Code Coverage](https://scrutinizer-ci.com/g/ejessyp/weather/badges/coverage.png?b=main)](https://scrutinizer-ci.com/g/ejessyp/weather/?branch=main)
 [![Build Status](https://scrutinizer-ci.com/g/ejessyp/weather/badges/build.png?b=main)](https://scrutinizer-ci.com/g/ejessyp/weather/build-status/main)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/5d92faf1789243059dcb2da56e9e39bb)](https://www.codacy.com/gh/ejessyp/weather/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ejessyp/weather&amp;utm_campaign=Badge_Grade)
 
-Weather module implements a weather service.
+Weather module implements a weather service
 
 Install as an Anax module
 ------------------------------------
 
 There are two steps in the installation procedure, 1) first install the module using composer and then 2) integrate it into you Anax base installation.
-
-
 
 ### Step 1, install using composer.
 
@@ -55,7 +54,6 @@ rsync -av  vendor/bthpan/weather/view/ ./view
 
 The weather service is now active on the route `weather2/`.
 The weather API is now active on the route `weather2Api`.
-
 
 Dependency
 ------------------

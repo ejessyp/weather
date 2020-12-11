@@ -14,7 +14,7 @@ Install as an Anax module
 
 There are two steps in the installation procedure, 1) first install the module using composer and then 2) integrate it into you Anax base installation.
 
-### Step 1, install using composer.
+### Step 1, install using composer
 
 Install the module using composer.
 

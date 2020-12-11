@@ -13,10 +13,10 @@ build:
                     - js-scrutinizer-run
 
         tests-and-coverage:
+            environment:
+                php:
+                    version: '7.4'
             tests:
-                environment:
-                    php:
-                        version: '7.4'
                 override:
                     -
                         command: "make phpunit"
